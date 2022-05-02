@@ -11,11 +11,7 @@ from django.urls import reverse
 from nips.users.forms import UserAdminChangeForm
 from nips.users.models import User
 from nips.users.tests.factories import UserFactory
-from nips.users.views import (
-    UserRedirectView,
-    UserUpdateView,
-    user_detail_view,
-)
+from nips.users.views import UserRedirectView, UserUpdateView, user_detail_view
 
 pytestmark = pytest.mark.django_db
 
