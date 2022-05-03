@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python merge_production_dotenvs_in_dotenv.py
+fly deploy --config compose/production/django/fly.toml --dockerfile compose/production/django/Dockerfile

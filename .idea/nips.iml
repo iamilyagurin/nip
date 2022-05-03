@@ -14,7 +14,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Poetry (nips)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (env_nip)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings">
@@ -35,6 +35,6 @@
     </option>
   </component>
   <component name="TestRunnerService">
-    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+    <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>

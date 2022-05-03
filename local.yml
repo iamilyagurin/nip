@@ -11,7 +11,6 @@ services:
       dockerfile: ./compose/local/django/Dockerfile
     image: nips_local_django
     container_name: nips_local_django
-#    platform: linux/arm64/v8
     depends_on:
       - postgres
       - redis
@@ -36,11 +35,12 @@ services:
       - nips_local_postgres_data_backups:/backups:z
     env_file:
       - ./.envs/.local/.postgres
+    ports:
+      - "5432:5432"
 
   docs:
     image: nips_local_docs
     container_name: nips_local_docs
-#    platform: linux/arm64/v8
     build:
       context: .
       dockerfile: ./compose/local/docs/Dockerfile
