@@ -12,4 +12,12 @@ REDIS_URL=redis://redis:6379/0
 # Flower
 CELERY_FLOWER_USER=xcrQvQjkjVmBaOPhvYHKzzsJnwhwWuSy
 CELERY_FLOWER_PASSWORD=4nakUhFFBmNWFAEQOf03OO38MIbu4bZZFFW5ez1h6rxDnlXiyTm48yAChh4mAuSI
-#
+
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_DB=nips
+POSTGRES_USER=iofGJHqDYHZqvmwdhXUoJjuFBpEUFfOG
+POSTGRES_PASSWORD=liIhXDgsQsjMoWbz28THPlzJBw0Ushd4EVSblXxa9apY7SV4X4hFNHlydkD4jAXU
+DATABASE_URL=postgres://iofGJHqDYHZqvmwdhXUoJjuFBpEUFfOG:liIhXDgsQsjMoWbz28THPlzJBw0Ushd4EVSblXxa9apY7SV4X4hFNHlydkD4jAXU@localhost:5432/nips

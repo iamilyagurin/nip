@@ -1,5 +1,10 @@
+
+from . import env, ROOT_DIR
+
+# OS environment variables take precedence over variables from .env
+env.read_env(str(ROOT_DIR / ".envs" / ".local" / ".django"))
+
 from .base import *  # noqa
-from .base import env
 
 # GENERAL
 # ------------------------------------------------------------------------------
